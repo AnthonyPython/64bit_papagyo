@@ -31,9 +31,9 @@ July 8, 2014
 ADDENDUM
 
 This is a 64 bit version, the 32 bit version will not compile probably.
-This has a few extra phonemes meant for another project use them if needed in your own project but most plugins wont support other the basic ones originally from papagyo.
+This has a few extra phonemes meant for another project use them if needed.
 
-More tool setup may need to be done depending on your system.
+More build tool setup may need to be done depending on your system.
 
 Anthony Python
 May 16, 2023
