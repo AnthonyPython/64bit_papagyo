@@ -18,22 +18,22 @@ installer folder.
 What you've downloaded here is the source code to Papagayo. You can modify and build it
 as you wish, as long as you follow the terms in the License.txt file.
 
-Papagayo is currently built as a Qt application. To build it you need Qt 5.2.1 installed.
-I have built Papagayo for Windows and MacOS X, but I expect it will build for Linux as
-well. If anyone wants to try out a Linux build, go for it.
+Papagayo is currently built as a Qt application. To build it you need Qt 5.15 installed.
+I have built Papagayo for Windows, most likely will build for MacOS & Linux.
 
 To build Papagayo, open up the file Papagayo.pro in Qt Creator and press the Build
 Project button.
 
-Papagayo is currently in active development, so please check back for newer versions.
-
-The current version of Papagayo can always be found here:
-
-http://www.lostmarble.com/papagayo/index.shtml
-
-
-
-
 
 Mike Clifton
 July 8, 2014
+
+ADDENDUM
+
+This is a 64 bit version, the 32 bit version will not compile probably.
+This has a few extra phonemes meant for another project use them if needed in your own project but most plugins wont support other the basic ones originally from papagyo.
+
+More tool setup may need to be done depending on your system.
+
+Anthony Python
+May 16, 2023
