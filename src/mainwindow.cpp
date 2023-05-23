@@ -6,7 +6,7 @@
 
 MainWindow::MainWindow(QWidget *parent) :
 	QMainWindow(parent),
-    Sphinx(new SphinxObject),
+    //Sphinx(new SphinxObject),
     ui(new Ui::MainWindow)
 {
 	fDoc = NULL;
@@ -38,7 +38,7 @@ MainWindow::~MainWindow()
 		delete fDoc;
 	delete ui;
 
-    delete Sphinx;
+    //delete Sphinx;
 }
 
 
@@ -76,7 +76,7 @@ void MainWindow::OpenFile(QString filePath)
 	{
 		ui->waveformView->SetDocument(fDoc);
 		ui->mouthView->SetDocument(fDoc);
-        Sphinx->SetDocument(fDoc);
+        //Sphinx->SetDocument(fDoc);
 		fDoc->GetAudioPlayer()->setNotifyInterval(17); // 60 fps
 		connect(fDoc->GetAudioPlayer(), SIGNAL(positionChanged(qint64)), ui->waveformView, SLOT(positionChanged(qint64)));
 
@@ -94,7 +94,7 @@ void MainWindow::OpenFile(QString filePath)
 
             std::string file = "G:/CrimEngineDX11/CrimEngine-github/Papagayo/src/build-Papagayo_sphinx-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/debug/audio1.wav";
 
-            Sphinx->align(Sphinx->config,file.c_str());
+            //Sphinx->align(Sphinx->config,file.c_str());
             //Sphinx->align(Sphinx->config,filePath.toStdString().c_str());
 			fEnableAutoBreakdown = false;
 			ui->voiceText->setPlainText(fDoc->fCurrentVoice->fText);

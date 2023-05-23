@@ -5,11 +5,11 @@
 
 #include "lipsyncdoc.h"
 
-#include <pocketsphinx.h>
-#include "ps_alignment_internal.h"
-#include "util/cmd_ln.h"
+//#include <pocketsphinx.h>
+//#include "ps_alignment_internal.h"
+//#include "util/cmd_ln.h"
 
-#include "sphinxobject.h"
+//#include "sphinxobject.h"
 
 class QListWidgetItem;
 
@@ -63,7 +63,7 @@ private:
 	bool				fEnableAutoBreakdown;
 	bool				fRebuildingList;
 	int					fDefaultFps;
-    SphinxObject        *Sphinx;
+    //SphinxObject        *Sphinx;
 
 	Ui::MainWindow *ui;
 };

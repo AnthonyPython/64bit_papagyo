@@ -26,7 +26,7 @@ win32 {
 
 INCLUDEPATH += libsndfile_1.0.25/Win32/include
 
-LIBS += -LG:\CrimEngineDX11\CrimEngine-github\Papagayo\src\Papagayo\libsndfile_1.0.25\Win32\lib -llibsndfile-1
+LIBS += -LE:\CrimEngineDX11\CrimEngine-github\Papagayo\src\Papagayo\libsndfile_1.0.25\Win32\lib -llibsndfile-1
 #LIBS += -Llibsndfile_1.0.25\Win32\lib -llibsndfile-1
 
 MY_DLL_FILES += LC:\Users\mclifton\Documents\QtDevelopment\Papagayo\libsndfile_1.0.25\Win32\bin\libsndfile-1.dll

@@ -8,7 +8,7 @@
 static void catch_sig(int signum)
 {
    (void)signum;
-   SphinxObject::global_done = 1;
+   //SphinxObject::global_done = 1;
 }
 int main(int argc, char *argv[])
 {
