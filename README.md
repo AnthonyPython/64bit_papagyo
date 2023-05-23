@@ -34,6 +34,7 @@ This is a 64 bit version, the 32 bit version will not compile probably.
 This has a few extra phonemes meant for another project use them if needed.
 
 More build tool setup may need to be done depending on your system.
+There is a absolute path for one of the required libs, unknown as to why relative path didn't work
 
 Anthony Python
 May 16, 2023
